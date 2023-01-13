@@ -7,6 +7,7 @@
     <title>Leader-board</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato&family=Lobster&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b7a7ddc9f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -44,17 +45,18 @@
                 </div>
             </div>
             <hr>
-        </section>
+       
         <div class="top-blogs container">
+            <p class="section-title">Top blogs</p>
             <div class="blogs">
                <article class="blog">
                 <div class="thumbnail">
                     <img src="./images/blogs/blog-1.png" alt="">
                 </div>
                <div class="blog-info">
-                <h3>13 of My Favorite
+                <h3  class="title">13 of My Favorite
                     UI/UX Goodies</h3>
-                   <p>By <span> Danny Sapio</span></p>
+                   <p class="small-text">By <span> Danny Sapio</span></p>
                </div>
                </article>
                <article class="blog">
@@ -62,9 +64,9 @@
                     <img src="./images/blogs/blog-2.png" alt="">
                 </div>
                 <div class="blog-info">
-                    <h3>UI cheat sheet: 
+                    <h3 class="title">UI cheat sheet: 
                         list vs grids</h3>
-                       <p>By <span> Tess Gadd</span></p>
+                       <p class="small-text">By <span> Tess Gadd</span></p>
                 </div>
                </article>
                <article class="blog">
@@ -72,9 +74,9 @@
                     <img src="./images/blogs/blog-3.png" alt="">
                 </div>
                 <div class="blog-info">
-                    <h3>7 typography tips 
+                    <h3  class="title">7 typography tips 
                         for interface design</h3>
-                       <p>By <span>Jeremiah Lam</span></p>
+                       <p class="small-text">By <span>Jeremiah Lam</span></p>
                 </div>
                </article>
                <article class="blog">
@@ -82,14 +84,79 @@
                     <img src="./images/blogs/blog-4.png" alt="">
                 </div>
                 <div class="blog-info">
-                    <h3>Your logo is 
+                    <h3  class="title">Your logo is 
                         copied</h3>
-                       <p>By <span>Ferdinand Vogler</span></p>
+                       <p class="small-text">By <span>Ferdinand Vogler</span></p>
                 </div>
                </article>
             </div>
 
         </div>
+    </section>
+     <section class="container ">
+        <p class="section-title">Latest course</p>
+        <div class="courses">
+          <div class="course">
+            <div class="banner">
+                 <img src="./images/courses/course-1.png" alt="">
+            </div>
+            <div class="course-info">
+               <h3 class="title">React - The Complete Guide 2023</h3>
+               <p class="name">Reed Krakoff.</p>
+               <div class="ratings">
+                <div> <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                4.5
+                </div>
+                <div class="time"> <i class="fa-regular fa-clock"></i> 1.30hr</div>
+               </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="banner">
+                 <img src="./images/courses/course-2.png" alt="">
+            </div>
+            <div class="course-info">
+               <h3 class="title">Powerpoint 2020  Master Powerpoint Course</h3>
+               <p class="name">Reed Krakoff.</p>
+               <div class="ratings">
+                <div>
+                    <i class="  fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    4.5
+                </div>
+                <div class="time"><i class="fa-regular fa-clock"></i> 1.30hr</div>
+               </div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="banner">
+                 <img src="./images/courses/course-3.png" alt="">
+            </div>
+            <div class="course-info">
+               <h3 class="title">The Complete JavaScript course Guide 2023</h3>
+               <p class="name">Reed Krakoff.</p>
+               <div class="ratings">
+                <div> <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                4.5
+                </div>
+                <div class="time"> <i class="fa-regular fa-clock"></i> 1.30hr</div>
+               </div>
+            </div>
+          </div>
+        </div>
+     </section>
+
     </main>
 </body>
 </html>
